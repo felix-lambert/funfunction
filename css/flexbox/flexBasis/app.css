@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: #eec965;
+    display: flex;
+  }
+  
+  .title-1 {
+    background: #dd5f40;
+    width: 220px;
+    flex-basis: 150px;
+    
+  }
+  
+  .title-2 {
+    background: #3d483a;
+  }
+  
+  .title-3 {
+    background: #468e5d;
+  }
+  
+  h1 {
+  }

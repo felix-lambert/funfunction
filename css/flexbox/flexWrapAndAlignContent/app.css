@@ -1,0 +1,35 @@
+html{
+    height: 100%;
+  }
+  body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    height: 100%;
+    
+  }
+  figure {
+    margin: 0;
+    display: block;
+    height: 150px;
+    flex: 0 150px;
+    position: relative;
+  }
+  figcaption {
+    background: rgba(0,0,0,0.5);
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 4px;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+  

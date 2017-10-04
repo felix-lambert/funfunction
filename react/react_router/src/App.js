@@ -28,7 +28,7 @@ const neverRender = (BaseComponent) =>
   }
 
 const User = ({ name }) =>
-  <div className="User">{ name }</div>
+  <div className={styles.User}>{ name }</div>
 
 // Now, if we create another User and we pass our first User to our higher order component -> 
 // hoc, it's not going to modify it in any way, but we will have a valid React component. 

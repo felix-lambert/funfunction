@@ -1,0 +1,23 @@
+body {
+  background: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.main-nav li {
+  width: 100px;
+}
+.main-nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  font-weight: 600;
+  color: #00a9d9;
+}
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
