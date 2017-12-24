@@ -1,7 +1,5 @@
 // composition is designing your types with what they do
 // inheritance is designing your types with what they are
-
-
 const barker = (state) => ({
   bark: () => console.log('Woof, I am ' + state.name)
 })
