@@ -7,7 +7,7 @@ var animals = [
     { name: 'Harold', species: 'fish' },
     { name: 'Ursula', species: 'cat' },
     { name: 'Jimmy', species: 'fish' }
-];
+]
 
 // var names = [];
 // for (var i = 0; i < animals.length; i++) {
@@ -15,8 +15,8 @@ var animals = [
 // }
 
 var names = animals.map(function(animal) {
-    return animal.name;
-});
+    return animal.name
+})
 
 
-var names = animals.map((x) => x.name);
+var names = animals.map((x) => x.name)
