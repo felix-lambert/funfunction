@@ -1,12 +1,12 @@
 // In javascript, functions are values
 
 var triple = function(x) {
-    return x * 3;
+    return x * 3
 }
 
-var waffle = triple;
+var waffle = triple
 
-waffle(30);
+waffle(30)
 
 // Like this, you can compose a lot of functions into biggger functions
 // So we can reuse functions all over the place
@@ -17,14 +17,14 @@ var animals = [
     { name: 'Harold', species: 'fish' },
     { name: 'Ursula', species: 'cat' },
     { name: 'Jimmy', species: 'fish' }
-];
+]
 
 // Filter will loop through each items in the array
 // Here dogs will be either true or false
 // It is to tell if the filter should be in the new array
 var dogs = animal.filter(function() {
-    return animals.species === 'dog';
-});
+    return animals.species === 'dog'
+})
 
 // var dogs = [];
 // for (var i; i < animals.length; i++) {

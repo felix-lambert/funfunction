@@ -2,7 +2,7 @@ var animals = {
   species: 'dog',
   weight: 23,
   sound: 'woof'
-};
+}
 
 var { species, sound } = animals
 console.log('The ' + species + ' says ' + sound + '!')
